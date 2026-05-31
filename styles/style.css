@@ -65,6 +65,8 @@ ol {
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
+  position: relative;
+  top: 1px;
 }
 
 .content__list-container {
@@ -186,8 +188,8 @@ ol {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  line-height: 80%;
-  padding-bottom: 2px;
+  line-height: 70%;
+  padding-bottom: 3px;
 }
 
 .visually-hidden {
